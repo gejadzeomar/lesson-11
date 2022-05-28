@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+a {
+    decoration: none;
+    color: #FFFFFF;
+}
+img {
+    width: 100%;
+}
+nav ul {
+    flex-wrap: wrap;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 45px;
+    flex-wrap: wrap;    
+}
+header {
+    background-color: #0020F4;
+    padding-top: 27px;
+    height: 387px;
+    position: relative;
+    flex-wrap: wrap;
+}
+.logo {
+    width: 115px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1475px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    /* margin-top: 27px; */
+    flex-wrap: wrap;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* ბევრნაირად ვცადე ცენტრში ერთ ხაზზე განმელაგებინა კონტაქტი და დანარჩენი აითემები, მაგრამ არაფერმა უშველა */
+}
+.nav ul {
+    display: flex;
+}
+.contact {
+    background-color: #FFFFFF;
+    height: 55px;
+    width: 160px;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact a {
+    color: #171717;
+}
+
+main {
+    max-width: 1125px;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: -3px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainimg {
+   max-width: 1195px;
+   width: 100%;
+   margin: 0 auto;
+   position: absolute;
+   margin-top: -215px;
+}
+h3 {
+    font-size: 28px;
+    margin-top: 30px;
+}
+.main {
+    max-width: 1195px;
+   width: 100%;
+   margin: 0 auto;
+   margin-top: 500px;
+}
+.img {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* როცა აქ ვრაპს ვრთავ ფოტოებს არ ალაგებს სწორად მიზეზი ვერ გავიგე */
+    margin-top: 60px;
+    max-width: 1195px;
+    width: 100%;
+    margin: 0 auto;
+}
+.img div {
+    width: 219px;
+    margin-right: 25px;
+}
+.text {
+    max-width: 951px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.text p {
+    margin-top: 18px;
+    font-size: 16px;
+}
+.button {
+    background-color: #0A22F4;
+    display: flex;
+    max-width: 351px;
+    width: 100%;
+    margin: 0 auto;
+    height: 51px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+footer {
+    /* height: 1080px; */
+    background-color: #0A22F4;
+    margin-top: 180px;
+    color: #FFFFFF;
+    flex-wrap: wrap;
+}
+.mainfooter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1475px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.formblock {
+    display: flex;
+}
+.phoneimg, .mailimg {
+    width: 70px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.phoneimg img, .mailimg img {
+    width: 26px;
+}
+.phone, .mail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 270px;
+    width: 100%;
+    margin: 0 auto;
+}
+.map {
+    width: 463px;
+    height: 197px;
+}
+.block {
+    max-width: 483px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 275px;
+}
+.block p {
+    margin-top: 30px;
+    margin-bottom: 58px;
+
+}
+.endline {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.heart {
+    height: 26px;
+    width: 26px;
+}
+.footerlogo {
+    width: 121px;
+}
+.formblock {
+    margin-top: 373px;
+}
+.form {
+    margin-bottom: 100px;
+}
+.footercontact {
+   display: flex;
+   justify-content: flex-start; 
+   flex-wrap: wrap;
+}
+.endline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1475px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.end {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footerlogo {
+    margin-left: 30px;
+}
+.end p {
+    margin-right: 15px;
+}
+.menu img {
+    display: none;
+    width: 60px;
+}
+
+@media (max-width:1024px) {
+nav {
+    display: none;
+}
+.logo {
+    max-width: 97px;
+    width: 100%;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    max-width: 60px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+}
